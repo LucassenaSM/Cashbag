@@ -3,7 +3,7 @@ margin: 0%;
 padding: 0%;
 background-color: #f7f9fa;
 font-family: Arial, Helvetica, sans-serif;
-
+max-width: 100%;
 }
 #Inicio{
  max-width: 100%;
@@ -79,7 +79,7 @@ nav li:hover{
     color: #0B6DD8;
 }
 #Principal{
-width: 100%;
+width: 96%;
 height: 1%;
 background-color: #0B6DD8;
 padding-top: 4%;
@@ -148,11 +148,58 @@ h1{
 .titulos{
     margin-bottom: 4%;
     display: block;
-    color: #0BAAE2;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 350%;    
 }
 #Empresa{
     color: #0BE2A4;
+}
+#Time{
+    width: 100%;
+    height: 50%;
+    margin-top: 5% 0;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: #0BE2A4;
+    color: #fff;
+    margin-bottom: 2%;
+}
+#Timebox{
+    background-color: #0B6DD8;
+    width: 55%;
+    margin: 0 2%;
+    margin-left: 5%;
+    border-radius: 40px;
+    padding: 1%;
+    list-style-type: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#Timebox li{
+    font-size: 25px;
+    list-style-type: none;
+}
+#timeflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1 0 ;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-items: flex-start;
+}
+.material-symbols-outlined{
+    color: #0BE2A4;
+    
+}
+#final{
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#esquerda{
+    margin-left: -50px;
+}
+#esquerda2{
+    margin-left: -8em;
 }
