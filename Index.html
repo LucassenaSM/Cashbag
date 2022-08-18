@@ -12,7 +12,8 @@
     <link href="AdigianaUI.ttf" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>CASHBAG</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <title>Cashbag</title>
 </head>
 
 <body>
@@ -27,9 +28,17 @@
             </ul>
         </div>
         <div id="navpessoal">
-            <ul>
+            <ul id="menu1">
                 <li>Carteira</li>
-                <li id="perfil">Seu Perfil</li>
+                <div id="conta">
+                <li id="perfil">Sua Conta</li>
+            </div>
+                <ul id="menu">
+                    <li>Perfil</li>
+                    <li>Preferencias</li>
+                    <li>Sair</li>
+                </ul>
+
             </ul>
         </div>
     </nav>
@@ -41,13 +50,13 @@
                 <h1 class="espaco" id="ad">Abra sua conta e invista no CDB Banco XP
                     <br>com liquidez diária
                 </h1>
-                <h1 id="Conta">Criar Uma Conta</h1>
+                <h1 id="Conta">Criar minha conta</h1>
             </div>
             <div id="Principal2">
                 <img src="principal.png">
             </div>
         </div>
-        <h1 class="titulos" style="color: #0BAAE2;">Investir é pra você</h1>
+        <h1 class="titulos" style="color: #0BAAE2; margin-top: -2%;">Investir é pra você</h1>
         <div id="Motivos">
             <div class="Motivo">
                 <img src="wallet.png" width="85px">
@@ -72,47 +81,91 @@
         <div id="Time">
             <h1 class="titulos" style="margin-bottom: 2%;margin-top: 2%;">Nossa Equipe está Preparada</h1>
             <div id="timeflex">
-            <div id="Timebox">
-                <h1 style="text-align: center;">Contamos com uma equipe engajada na busca dos melhores resultados para você.</h1>
-                <Ul>
-                    <li><span class="material-symbols-outlined" style="font-size: xx-large;">
-                            chevron_right
-                        </span>Temos Mais de 200 colaboradores prontos para atender <span
-                            style="color:#0BE2A4 ;">você</span></li>
-                    <li style="margin-left: 4%;"><span class="material-symbols-outlined">
-                            subdirectory_arrow_right
-                        </span>Entre eles:</li>
-                    <li style="margin-left: 8%;"><span class="material-symbols-outlined" style="font-size: xx-large;">
-                            chevron_right
-                        </span>Gestor de Investimentos</li>
-                    <li style="margin-left: 8%;"><span class="material-symbols-outlined" style="font-size: xx-large;">
-                            chevron_right
-                        </span>Gestor de Patrimonio</li>
-                    <li style="margin-left: 8%;"><span class="material-symbols-outlined" style="font-size: xx-large;">
-                            chevron_right
-                        </span>Analistas de Investimento</li>
-                    <li style="margin-left: 8%;"><span class="material-symbols-outlined" style="font-size: xx-large;">
-                            chevron_right
-                        </span>Agentes Autônomos de Investimento</li>
-                        <li style="margin-left: 8%;"><span class="material-symbols-outlined" style="font-size: xx-large;">
-                            chevron_right
-                        </span>Entre Outros...</li>
-                </Ul>
-            </div>
-            <div>
-                <img src="https://img.freepik.com/fotos-premium/equipe-de-negocios-do-centro-de-negocios-trabalhando-na-foto-vertical-do-escritorio_252847-4399.jpg" alt="Colaboradores" width="300px" style="filter: blur(1px);margin: 0% 30%;">
-            </div>
+                <div id="Timebox">
+                    <h1 style="text-align: center;">Contamos com uma equipe engajada na busca dos melhores resultados
+                        para você.</h1>
+                    <Ul>
+                        <li><span class="material-symbols-outlined" style="font-size: xx-large;">
+                                chevron_right
+                            </span>Temos Mais de 200 colaboradores prontos para atender <span
+                                style="color:#0BE2A4 ;">você</span></li>
+                        <li style="margin-left: 4%;"><span class="material-symbols-outlined">
+                                subdirectory_arrow_right
+                            </span>Entre eles:</li>
+                        <li style="margin-left: 8%;"><span class="material-symbols-outlined"
+                                style="font-size: xx-large;">
+                                chevron_right
+                            </span>Gestor de Investimentos</li>
+                        <li style="margin-left: 8%;"><span class="material-symbols-outlined"
+                                style="font-size: xx-large;">
+                                chevron_right
+                            </span>Gestor de Patrimonio</li>
+                        <li style="margin-left: 8%;"><span class="material-symbols-outlined"
+                                style="font-size: xx-large;">
+                                chevron_right
+                            </span>Analistas de Investimento</li>
+                        <li style="margin-left: 8%;"><span class="material-symbols-outlined"
+                                style="font-size: xx-large;">
+                                chevron_right
+                            </span>Agentes Autônomos de Investimento</li>
+                        <li style="margin-left: 8%;"><span class="material-symbols-outlined"
+                                style="font-size: xx-large;">
+                                chevron_right
+                            </span>Entre Outros...</li>
+                    </Ul>
+                </div>
+                <div>
+                    <img src="https://img.freepik.com/fotos-premium/equipe-de-negocios-do-centro-de-negocios-trabalhando-na-foto-vertical-do-escritorio_252847-4399.jpg"
+                        alt="Colaboradores" width="300px"
+                        style="filter: blur(1px);margin: 0% 30%; border-radius: 15px;">
+                </div>
             </div>
         </div>
         <div id="final">
             <h1 class="titulos" style="color:#0BAAE2 ;">Não perca tempo<br>Comece a investir com a gente</h1>
             <div id="inputs">
-            <p ><span id="esquerda">Nome completo</span><br><input type="text" id="inNome"></p>
-            <p ><span id="esquerda2">Email</span><br><input type="email" id="inEmail"></p>
-            <input type="button" id="btContaCriar" value="Criar Uma Conta">
+                <p><span id="esquerda">Nome completo</span><br><input type="text" id="inNome"></p>
+                <p><span id="esquerda2">Email</span><br><input type="email" id="inEmail"></p>
+                <input type="button" id="btContaCriar" value="Criar minha conta">
             </div>
         </div>
     </main>
+    <footer>
+        <div>
+            <h1 class="footer1">A CashBag</h1>
+            <h3 class="footer2">Sobre a CASHBAG</h3>
+            <h3 class="footer3">Quem Somos</h2>
+                <h3 class="footer3">Vantagens</h2>
+                    <h3 class="footer3">Bag Plus</h2>
+                        <h3 class="footer3">Carteira</h2>
+                            <h3 class="footer3">Ouvidoria</h2>
+        </div>
+        <div>
+            <h1 class="footer1">Investimentos</h1>
+            <h3 class="footer2">Nossos Produtos</h3>
+            <h3 class="footer3">Tesouro Direto</h2>
+                <a href="Investimentos/CDB/CDB.html"><h3 class="footer3">CDB</h2></a>
+                    <h3 class="footer3">Renda Fisica</h2>
+                        <h3 class="footer3">LCI</h2>
+                            <h3 class="footer3">LC</h2>
+        </div>
+        <div>
+            <h1 class="footer1">Contato</h1>
+            <h3 class="footer2">fale com a gente</h3>
+            <h3 class="footer2">Whatsapp</h3>
+            <h3 class="footer3">+55 11 4935-2740</h2>
+                <h3 class="footer2">Capitais e regiões metropolitanas</h3>
+                <h3 class="footer3">+55 11 3003-5465 ou +55 11 4007-2465</h2>
+        </div>
+        <div>
+            <h3 class="footer2">Demais localidades</h3>
+            <h3 class="footer3">0800-771-5465</h2>
+                <h3 class="footer2">Sac</h3>
+                <h3 class="footer3">0800-774-0402</h2>
+                    <hr>
+                    <p id="copy">Copyright © 2022 CashBag Todos os direitos reservados.</p>
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 

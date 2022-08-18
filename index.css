@@ -27,6 +27,8 @@ nav ul{
 nav li{
     font-size: large;
     margin-right: 5%;
+    margin-left: 0%;
+    
 }
 nav li:hover{
     font-size: large;
@@ -48,24 +50,27 @@ nav li:hover{
 }
 #navpessoal{
     width: 30%;
-    height: 4%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: flex-end;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
     margin-top: 2%;
     padding-top: 3%;
     color: #0BE2A4;
 }
 #perfil{
     border: #0BE2A4 solid 3px;
-    border-radius: 20px;
+    border-radius: 18px;
     padding: 5px;
     margin-top: -8px;
+    color: #0BE2A4;
+    width: 11vh;
+    margin-right: -4vh;
+}
+a{
+text-decoration: none;
 }
 #perfil:hover{
     border: #0BE2A4 solid 3px;
@@ -74,6 +79,45 @@ nav li:hover{
     border-radius: 20px;
     padding: 5px;
     margin-top: -8px;
+    margin-right: -4vh;
+    width: 11vh;
+    transition: 0.5s;
+}
+ 
+#menu1 ul{
+    display: none;
+}
+
+#menu1:hover ul{
+    display: flex;
+    transition: 2s;
+
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    transition: 2s;
+    border: #0BD863 solid 3px;
+    border-right: 0px;
+    border-left: 0vh;
+    border-radius: 2vh;
+    margin-top: -3vh;
+    padding-right: 1vh;
+    width: auto;
+}
+#menu li{
+    margin: 0px 0vh;
+    padding-bottom: 3px;
+    padding-left: -5vh;
+    padding-top: 1vh;
+
+}
+.altura{
+    margin-top: -1vh;
 }
 #outTotal{
     color: #0B6DD8;
@@ -127,6 +171,15 @@ h1{
     text-align: center;
     padding: 8px;
 }
+#Conta:hover{
+    border: #0BD863 solid 3px;
+    border-radius: 30px;
+    width: 20%;
+    text-align: center;
+    padding: 8px;
+    background-color: #0BD863;
+    color: #fff;
+}
 #Motivos{
     width: 100%;
     display: flex;
@@ -139,6 +192,7 @@ h1{
     align-items: baseline;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    padding-bottom: 2%;
 }
 .Motivo{
     font-family: 'Josefin Sans', sans-serif;
@@ -171,7 +225,7 @@ h1{
     margin: 0 2%;
     margin-left: 5%;
     border-radius: 40px;
-    padding: 1%;
+    padding: 2%;
     list-style-type: none;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -190,16 +244,80 @@ h1{
 }
 .material-symbols-outlined{
     color: #0BE2A4;
-    
 }
 #final{
     text-align: center;
     list-style-type: none;
     font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 2%;
 }
 #esquerda{
-    margin-left: -50px;
+    margin-left: -14em;
 }
 #esquerda2{
-    margin-left: -8em;
+    margin-left: -18em;
+}
+#inputs{
+    color: #0B6DD8;
+    margin: -2% 0;
+    padding-bottom: 2%;
+}
+input{
+    border: 2px solid #2a2a2a;
+    width: 20%;
+    height: 25%;
+    padding: 12px 5px;
+    font-family:'Josefin Sans', sans-serif;
+}
+#btContaCriar{
+        border: #0BD863 solid 3px;
+        border-radius: 30px;
+        width: 20%;
+        text-align: center;
+        padding: 12px 16px;
+        font-size: large;
+}
+#btContaCriar:hover{
+    border: #0BD863 solid 3px;
+    border-radius: 30px;
+    width: 20%;
+    text-align: center;
+    padding: 12px 16px;;
+    background-color: #0BD863;
+    color: #fff;
+    font-size: large;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding-left: 8vh;
+    background-color: #0b55a3;
+    padding-bottom: 3vh;
+}
+footer div{
+    margin-right: 10vh;
+}
+.icon{
+    margin-right: 2vh;
+    margin-bottom: 0vh;
+}
+.footer1{
+    color:#0BE2A4;
+    margin-top: 5vh;
+}
+.footer2{
+    color: #0BD863;
+    margin-top: 5vh;
+}
+.footer3{
+    color: #fff;
+    margin-top: 0vh;
+}
+#copy{
+    color: #fff;
+    margin-top: 10vh;
 }
