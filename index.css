@@ -26,13 +26,13 @@ nav ul{
 }
 nav li{
     font-size: large;
-    margin-right: 5%;
+    margin-right: 4vh;
     margin-left: 0%;
     
 }
 nav li:hover{
     font-size: large;
-    margin-right: 5%;
+    margin-right: 4vh;
     color:#0B6DD8;
 }
 #nav1{
@@ -71,7 +71,9 @@ nav li:hover{
 }
 a{
 text-decoration: none;
+color: inherit;
 }
+
 #perfil:hover{
     border: #0BE2A4 solid 3px;
     background-color: #0BE2A4;
@@ -179,6 +181,26 @@ h1{
     padding: 8px;
     background-color: #0BD863;
     color: #fff;
+    transition: 00.4s;
+}
+#Conta1{
+    border: #0BD863 solid 3px;
+    border-radius: 30px;
+    width: 35%;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 2vh;
+    color:#0BD863;
+}
+#Conta1:hover{
+    border: #0BD863 solid 3px;
+    border-radius: 30px;
+    width: 35%;
+    text-align: center;
+    padding: 8px;
+    background-color: #0BD863;
+    color: #fff;
+    transition: 00.4s;
 }
 #Motivos{
     width: 100%;
@@ -307,11 +329,11 @@ footer div{
 }
 .footer1{
     color:#0BE2A4;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 .footer2{
     color: #0BD863;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 .footer3{
     color: #fff;
@@ -319,5 +341,5 @@ footer div{
 }
 #copy{
     color: #fff;
-    margin-top: 10vh;
+    margin-top: 2vh;
 }

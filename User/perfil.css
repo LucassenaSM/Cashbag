@@ -26,11 +26,11 @@ body{
     }
     nav li{
         font-size: large;
-        margin-right: 5%;
+        margin-right: 4vh;
     }
     nav li:hover{
         font-size: large;
-        margin-right: 5%;
+        margin-right: 4vh;
         color:#0B6DD8;
     }
     #nav1{

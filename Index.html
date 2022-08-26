@@ -21,7 +21,7 @@
         <img src="Back2.png" id="Inicio">
         <div id="nav1">
             <ul>
-                <li>Principal</li>
+                <a href="Index.html"><li>Principal</li></a>
                 <li>Seus Investimentos</li>
                 <li>Novos Investimentos</li>
                 <li id="outTotal"></li>
@@ -31,8 +31,8 @@
             <ul id="menu1">
                 <li>Carteira</li>
                 <div id="conta">
-                <li id="perfil">Sua Conta</li>
-            </div>
+                    <li id="perfil">Sua Conta</li>
+                </div>
                 <ul id="menu">
                     <li>Perfil</li>
                     <li>Preferencias</li>
@@ -47,16 +47,21 @@
             <div id="Principal">
                 <h1>Olá Novo Investidor, Venha Lucrar Com a Melhor</h1>
                 <h2 class="espaco">Nunca Foi Tão Simples investir</h2>
-                <h1 class="espaco" id="ad">Abra sua conta e invista no CDB Banco XP
-                    <br>com liquidez diária
+                <h1 class="espaco" id="ad">Abra sua conta e invista no CDB
+                    com <br>liquidez diária
                 </h1>
-                <h1 id="Conta">Criar minha conta</h1>
+                <div>
+                    <a href="/Investimentos/CDB/CDB.html">
+                        <h1 id="Conta1">Simulador de Investimento CDB</h1>
+                    </a>
+                    <h1 id="Conta">Criar minha conta</h1>
+                </div>
             </div>
             <div id="Principal2">
                 <img src="principal.png">
             </div>
         </div>
-        <h1 class="titulos" style="color: #0BAAE2; margin-top: -2%;">Investir é pra você</h1>
+        <h1 class="titulos" style="margin-bottom: 2%;margin-top: 2%; color: #0BAAE2;">Investir é pra você</h1>
         <div id="Motivos">
             <div class="Motivo">
                 <img src="wallet.png" width="85px">
@@ -126,7 +131,7 @@
             <div id="inputs">
                 <p><span id="esquerda">Nome completo</span><br><input type="text" id="inNome"></p>
                 <p><span id="esquerda2">Email</span><br><input type="email" id="inEmail"></p>
-                <input type="button" id="btContaCriar" value="Criar minha conta">
+                <a href="/Login/Login.html"><input type="button" class="Conta" id="btContaCriar" value="Criar minha conta"></a>
             </div>
         </div>
     </main>
@@ -135,23 +140,34 @@
             <h1 class="footer1">A CashBag</h1>
             <h3 class="footer2">Sobre a CASHBAG</h3>
             <h3 class="footer3">Quem Somos</h2>
-                <h3 class="footer3">Vantagens</h2>
-                    <h3 class="footer3">Bag Plus</h2>
-                        <h3 class="footer3">Carteira</h2>
-                            <h3 class="footer3">Ouvidoria</h2>
+            <h3 class="footer3">Vantagens</h2>
+            <h3 class="footer3">Bag Plus</h2>
+            <h3 class="footer3">Carteira</h2>
+            <h3 class="footer3">Ouvidoria</h2>
         </div>
         <div>
             <h1 class="footer1">Investimentos</h1>
             <h3 class="footer2">Nossos Produtos</h3>
-            <h3 class="footer3">Tesouro Direto</h2>
-                <a href="Investimentos/CDB/CDB.html"><h3 class="footer3">CDB</h2></a>
-                    <h3 class="footer3">Renda Fisica</h2>
-                        <h3 class="footer3">LCI</h2>
-                            <h3 class="footer3">LC</h2>
+            <a href="/Investimentos/TesouroDireto/TesouroDireto.html">
+                <h3 class="footer3">Tesouro Direto</h3>
+            </a>
+            <a href="Investimentos/CDB/CDB.html">
+                <h3 class="footer3">CDB</h2>
+            </a>
+            <a href="/Investimentos/RDB/RDB.html">
+                <h3 class="footer3">RDB</h3>
+            </a>
+            <a href="/Investimentos/LCI/LCI.html">
+                <h3 class="footer3">LCI</h3>
+            </a>
+            <a href="/Investimentos/LC/LC.html">
+                <h3 class="footer3">LC</h3>
+            </a>
         </div>
         <div>
             <h1 class="footer1">Contato</h1>
             <h3 class="footer2">fale com a gente</h3>
+            <h3 class="footer3">sac@cashbag.com</h3>
             <h3 class="footer2">Whatsapp</h3>
             <h3 class="footer3">+55 11 4935-2740</h2>
                 <h3 class="footer2">Capitais e regiões metropolitanas</h3>
@@ -163,6 +179,8 @@
                 <h3 class="footer2">Sac</h3>
                 <h3 class="footer3">0800-774-0402</h2>
                     <hr>
+                    <p id="copy">Termos de Serviço</p>
+                    <p id="copy">Politica de Privacidade</p>
                     <p id="copy">Copyright © 2022 CashBag Todos os direitos reservados.</p>
         </div>
     </footer>

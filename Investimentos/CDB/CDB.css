@@ -73,6 +73,7 @@ nav li:hover {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 #perfil:hover {
   border: #0be2a4 solid 3px;
@@ -230,5 +231,5 @@ footer div {
 }
 #copy {
   color: #fff;
-  margin-top: 10vh;
+  margin-top: 2vh;
 }
