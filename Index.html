@@ -17,11 +17,15 @@
 </head>
 
 <body>
+
+    <div id="blur">
     <nav>
         <img src="Back2.png" id="Inicio">
         <div id="nav1">
             <ul>
-                <a href="Index.html"><li>Principal</li></a>
+                <a href="Index.html">
+                    <li>Principal</li>
+                </a>
                 <li>Seus Investimentos</li>
                 <li>Novos Investimentos</li>
                 <li id="outTotal"></li>
@@ -31,14 +35,16 @@
             <ul id="menu1">
                 <li>Carteira</li>
                 <div id="conta">
-                    <li id="perfil">Sua Conta</li>
+                    <li id="perfil">Entrar</li>
                 </div>
-                <ul id="menu">
-                    <li>Perfil</li>
-                    <li>Preferencias</li>
-                    <li>Sair</li>
-                </ul>
-
+                <div id="menu2">
+                    <ul id="menu">
+                        <li id="menuli">Perfil</li>
+                        <li id="menuli">Preferencias</li>
+                        <li id="menuli">Sair</li>
+                    </ul>
+                </div>
+               
             </ul>
         </div>
     </nav>
@@ -61,7 +67,7 @@
                 <img src="principal.png">
             </div>
         </div>
-        <h1 class="titulos" style="margin-bottom: 2%;margin-top: 2%; color: #0BAAE2;">Investir é pra você</h1>
+        <h1 class="titulos" style="margin-bottom: 2%;margin-top: 2%; color: #0BAAE2;">Investir é pra você!</h1>
         <div id="Motivos">
             <div class="Motivo">
                 <img src="wallet.png" width="85px">
@@ -100,7 +106,7 @@
                         <li style="margin-left: 8%;"><span class="material-symbols-outlined"
                                 style="font-size: xx-large;">
                                 chevron_right
-                            </span>Gestor de Investimentos</li>
+                                </span>Gestor de Investimentos</li>
                         <li style="margin-left: 8%;"><span class="material-symbols-outlined"
                                 style="font-size: xx-large;">
                                 chevron_right
@@ -127,11 +133,11 @@
             </div>
         </div>
         <div id="final">
-            <h1 class="titulos" style="color:#0BAAE2 ;">Não perca tempo<br>Comece a investir com a gente</h1>
+            <h1 class="titulos" style="color:#0BAAE2 ;">Não perca tempo<br>Cece a investir com a gente</h1>
             <div id="inputs">
                 <p><span id="esquerda">Nome completo</span><br><input type="text" id="inNome"></p>
                 <p><span id="esquerda2">Email</span><br><input type="email" id="inEmail"></p>
-                <a href="/Login/Login.html"><input type="button" class="Conta" id="btContaCriar" value="Criar minha conta"></a>
+                <input type="button" class="Conta" id="btContaCriar" value="Criar minha conta">
             </div>
         </div>
     </main>
@@ -140,10 +146,10 @@
             <h1 class="footer1">A CashBag</h1>
             <h3 class="footer2">Sobre a CASHBAG</h3>
             <h3 class="footer3">Quem Somos</h2>
-            <h3 class="footer3">Vantagens</h2>
-            <h3 class="footer3">Bag Plus</h2>
-            <h3 class="footer3">Carteira</h2>
-            <h3 class="footer3">Ouvidoria</h2>
+                <h3 class="footer3">Vantagens</h2>
+                    <h3 class="footer3">Bag Plus</h2>
+                        <h3 class="footer3">Carteira</h2>
+                            <h3 class="footer3">Ouvidoria</h2>
         </div>
         <div>
             <h1 class="footer1">Investimentos</h1>
@@ -184,6 +190,20 @@
                     <p id="copy">Copyright © 2022 CashBag Todos os direitos reservados.</p>
         </div>
     </footer>
+    </div>
+    <div id="login">
+        <div>
+            <h1>faça Seu login</h1>
+            <div id="inputs">
+                <p>Nome Completo<br><input type="text" class="logininput" id="inNome1"></p>
+                <p>Email<br><input type="email" class="logininput" id="inEmail1"></p>
+                <input type="button" class="logininput" id="btContaCriar1" value="Criar minha conta">
+            </div>
+        </div>
+        <div id="ad1">
+            <h1>A<br>Melhor<br>Escolha<br>Para<br>Você</h1>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 
