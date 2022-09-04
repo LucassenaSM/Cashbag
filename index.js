@@ -80,3 +80,12 @@ if (nome1 = "Lucas" && email1 == "Lucas") {
 
 }
 btContaCriar1.addEventListener("click", sair);
+//--------------------------------------------------------------------------------------------//
+//conta criar botão principal
+
+var conta = document.getElementById("Conta");
+
+function mover (){
+  window.scrollBy(0, 1300)
+}
+conta.addEventListener("click", mover)

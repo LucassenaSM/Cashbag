@@ -213,6 +213,7 @@ h1{
     width: 20%;
     text-align: center;
     padding: 8px;
+    cursor: pointer;
 }
 #Conta:hover{
     border: #0BD863 solid 3px;
